@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Itunes RSS Generator</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" >
+    </head>
+    
+    <body>
+        <h3>Create New Rss</h3>
+        
+        <form role="form" action="createChannel" method="POST" enctype="application/x-www-form-urlencoded">
+            <div class="form-group">
+                <label for="channelTitle">Channel Title:</label>
+                <input name="channelTitle" type="text" class="form-control" id="channelTitle">
+            </div>
+            <div class="form-group">
+                <label for="channelDescription">Channel Description:</label>
+                <input name="channelDescription" type="text" class="form-control" id="channelDescription">
+            </div>
+            <div class="form-group">
+                <label for="authorName">Author:</label>
+                <input name="authorName"  type="text" class="form-control" id="authorName">
+            </div>
+            <div class="form-group">
+                <label for="website">Website:</label>
+                <input name="website" type="text" class="form-control" id="website">
+            </div>
+            <div class="form-group">
+                <label for="imgLink">Channel Image Link:</label>
+                <input name="imgLink" type="text" class="form-control" id="imgLink">
+            </div>
+            <div class="form-group">
+                <label for="pubDate">Created:</label>
+                <input name="pubDate" type="text" class="form-control" id="pubDate">
+            </div>
+            <div class="form-group">
+                <label for="languageType">Language:</label>
+                <input name="languageType" type="text" class="form-control" id="languageType">
+            </div>
+            <div class="form-group">
+                <label for="copyright">Copyright:</label>
+                <input name="copyright" type="text" class="form-control" id="copyright">
+            </div>
+
+            <h5>First Episode</h5>
+              
+            <label for="eptitle">Episode Title:</label>
+            <input name="eptitle" type="text" class="form-control" id="eptitle">
+                
+            <label for="epdescription">Episode Description:</label>
+            <input name="epdescription" type="text" class="form-control" id="epdescription">
+                
+            <label for="epauthor">Episode Author(s):</label>
+            <input name="epauthor" type="text" class="form-control" id="epauthor">
+            
+            <label for="epPubDate">Created:</label>
+            <input name="epPubDate" type="text" class="form-control" id="epPubDate">
+
+                
+            <label for="epfileUrl">File Url:</label>
+            <input name="epfileUrl" type="text" class="form-control" id="epfileUrl">
+                
+            <label for="epfileSize">File Size:</label>
+            <input name="epfileSize" type="text" class="form-control" id="epfileSize">
+
+            <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+    </body>
+</html>

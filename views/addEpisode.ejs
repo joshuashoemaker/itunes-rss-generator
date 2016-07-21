@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Itunes RSS Generator</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" >
+    </head>
+    
+    <body>
+        <h3>Add Episode</h3>
+        
+        <form role="form" action="addepisode" method="POST" enctype="application/x-www-form-urlencoded">
+            <div class="form-group">
+
+                <label for="channelTitle">Channel Name:</label>
+                <input name="channelTitle" type="text" class="form-control" id="channelTitle">
+                
+                <label for="title">Episode Title:</label>
+                <input name="title" type="text" class="form-control" id="title">
+                
+                <label for="description">Episode Description:</label>
+                <input name="description" type="text" class="form-control" id="description">
+                
+                <label for="author">Episode Author(s):</label>
+                <input name="author" type="text" class="form-control" id="author">
+                
+                <label for="pubDate">Created:</label>
+                <input name="pubDate" type="text" class="form-control" id="epPubDate">
+
+                
+                <label for="fileUrl">Image Url:</label>
+                <input name="fileUrl" type="text" class="form-control" id="fileUrl">
+                
+                <label for="fileSize">File Size:</label>
+                <input name="fileSize" type="text" class="form-control" id="epfileSize">
+                
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+        
+    </body>
+</html>

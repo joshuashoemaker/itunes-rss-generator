@@ -1,0 +1,23 @@
+{
+  "name": "itunes-rss-generator",
+  "version": "1.0.0",
+  "description": "Itunes RSS creator with hosting service. File management with optional audio and image upload.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Joshua Shoemaker",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "ejs": "^2.4.2",
+    "express": "^4.13.4",
+    "mongodb-autoincrement": "^1.0.1",
+    "mongoose": "^4.5.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "http://github.org/joshuashoemaker/itunes-rss-generator.git"
+  }
+}
